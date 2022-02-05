@@ -133,4 +133,33 @@
 
 
 
+# ================= task - 3 ==================
+
+
+# year = input('year : ')
+# year = int(year)
+
+# if year % 100 != 0 and year % 4 == 0:
+#     print(year, ' is a leap year')
+# elif year % 100 == 0 and year % 400 == 0:
+#     print(year, ' is a leap year')
+# else:
+#     print(year, ' is not a leap year')
+
+
+
+
+
+# ------------------- Loop ------------------
+
+
+# for i in range(10):
+#     print('I want to be a great programmer')
+
+
+
+
+
+
+
 
