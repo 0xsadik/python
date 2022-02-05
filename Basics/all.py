@@ -59,6 +59,77 @@
 
 
 
+# task - 1
+
+# num = input('Enter a number to check negative or positive: ')
+# num = int(num)
+# if num >= 0:
+#     print(num,' is positive number')
+# elif num <= 0:
+#     print(num, ' is negative number')
+# else:
+#     print('not a number')
+
+
+
+
+# task - 2
+
+# num = input('Enter a number')
+# num = int(num)
+# if (num % 2) == 0:
+#     print('even number')
+# else: 
+#     print('Odd number')
+
+
+
+
+# =========== leap year ===========
+
+
+# year = input('year : ')
+# year = int(year)
+
+# if year % 4 != 0:
+#     print('not a leap year')
+# else:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print('yes')
+#         else :
+#             print('no')
+#     else:
+#         print('Yes')
+
+
+
+
+
+# year = input('year : ')
+# year = int(year)
+
+# if year % 400 == 0:
+#     print('yes')
+# elif year % 100 == 0:
+#     print('no')
+# elif year % 4 == 0:
+#     print('yes')
+# else:
+#     print('no')
+
+
+
+
+# year = input('year : ')
+# year = int(year)
+
+# if year % 100 != 0 and year % 4 == 0:
+#     print('Yes')
+# elif year % 100 == 0 and year % 400 == 0:
+#     print('Yes')
+# else:
+#     print('no')
 
 
 
