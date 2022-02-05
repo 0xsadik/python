@@ -220,9 +220,176 @@
 #     print(i)
 
 
+# count = 0
+# for num in range(1, 101):
+#     if num % 5 == 0:
+#         print(num)
+#         count += num
+# print('sum is : ', count)
 
 
 
+# count = 0
+# for num in range(5, 101, 5):
+#     print(num)
+#     count += num
+# print(count)
+
+
+
+# .: turtle example:.  
+
+
+# import turtle
+
+# turtle.shape('turtle')
+# turtle.speed(1)
+
+# for i in range(20):
+#     turtle.forward(10)
+#     turtle.penup()
+#     turtle.forward(10)
+#     turtle.pendown()
+
+# turtle.exitonclick()
+
+
+
+# import turtle
+
+# turtle.shape('turtle')
+# turtle.speed(2)
+
+# for side_length in range(50, 100, 10):
+#     for i in range(6):
+#         turtle.forward(side_length)
+#         turtle.left(90)
+
+# turtle.exitonclick()
+
+
+
+
+# names = ['shakil','babu','fahim','morshed','torikus','sadik']
+# for friends in names:
+#     print(friends)
+
+
+
+# li = list(range(11))
+# print(li)
+
+
+
+# even = list(range(2, 21, 2))
+# print(even)
+
+
+
+# odd = list(range(1, 20, 2))
+# print(odd)
+
+
+
+# -------> namata <---------
+
+
+# num = input('Enter a number:')
+# num = int(num)
+
+# m = 1
+# while m <= 10:
+#     print(num, 'x', m, '=', num * m)
+#     m += 1
+
+
+
+
+# import turtle
+
+# turtle.color('red')
+# turtle.speed(5)
+
+# counter = 0
+# while counter < 36:
+#     for i in range(4):
+#         turtle.forward(100)
+#         turtle.right(90)
+#     turtle.right(10)
+#     counter += 1
+
+# turtle.exitonclick()
+
+
+
+
+
+# import turtle
+
+# height = 7
+# width = 7
+
+# turtle.speed(2)
+
+# turtle.penup()
+
+# for y in range(height):
+#     for x in range(width):
+#         turtle.dot()
+#         turtle.forward(20)
+#     turtle.backward(20 * width)
+#     turtle.right(90)
+#     turtle.forward(20)
+#     turtle.left(90)
+
+# turtle.exitonclick()
+
+
+
+
+# while True:
+#     n = input('please enter a number(0 to exit): ')
+#     n = int(n)
+#     if n == 0:
+#         break
+#     print('Square of ', n , 'is', n * n)
+
+
+
+# while True:
+#     n = input('Enter a number (0 to exit) : ')
+#     n = int(n)
+#     if n < 0:
+#         print('We only allow positive number here try again')
+#         continue
+#     if n == 0:
+#         break
+#     print('Square of ', n , 'is', n * n )
+
+
+
+# terminate_program  = False
+# while not terminate_program:
+#     num1 = input('please enter a number: ')
+#     num1 = int(num1)
+#     num2 = input('please enter another number: ')
+#     num2 = int(num2)
+
+#     while True:
+#         operation = input('please enter add / sub or quit to exit: ')
+        
+#         if operation == 'quit':
+#             terminate_program = True
+#             break
+#         if operation not in ['add','sub']:
+#             print('unknown opeartion')
+#             continue
+#         if operation == 'add':
+#             print('Result is ', num1 + num2)
+#             break
+#         if operation == 'sub':
+#             print('Result is ', num1 - num2)
+#             break
 
 
 
