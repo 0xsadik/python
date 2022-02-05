@@ -185,6 +185,42 @@
 
 
 
+# count = 0
+# for i in range (50):
+#     count += 1
+# print(count)
+
+
+
+# count = 0
+# num = 1
+# for i in range(50):
+#     count += num
+#     num = num + 1
+# print(count)
+
+
+# count = 0
+# for num in range(51):
+#     count = count + num
+# print(count)
+
+# count = 0
+# for num in range(1, 51):
+#     count += num
+# print(count)
+
+
+
+# for i in range(1, 11):
+#     print(i)
+
+
+# for i in range(1, 20, 5):
+#     print(i)
+
+
+
 
 
 
