@@ -116,15 +116,15 @@
 
 
 
-def myfunc(li):
-    lent = len(li)
-    count = 0
-    for elems in li:
-        count += elems
-    return count / lent
+# def myfunc(li):
+#     lent = len(li)
+#     count = 0
+#     for elems in li:
+#         count += elems
+#     return count / lent
 
-ans = myfunc([1,2,3,4])
-print(ans)
+# ans = myfunc([1,2,3,4])
+# print(ans)
 
 
 # li = [1, 2, 3, 4]
@@ -133,3 +133,7 @@ print(ans)
 #     count += elem
 
 # print(count)
+
+
+
+
