@@ -50,3 +50,86 @@
 
 # turtle.exitonclick()
 
+
+# import turtle
+# turtle.speed(2)
+
+# def trivuj(side_length):
+#     for i in range(3):
+#         turtle.forward(side_length)
+#         turtle.left(120)
+# trivuj(200)
+# turtle.exitonclick()
+
+
+
+# def myfun(x):
+#     print('inside myfun', x)
+#     x = 10
+#     print('inside myfun', x)
+# x = 20
+# myfun(x)
+# print(x)
+
+
+
+
+
+
+# def myfunc(x, y = 10, z = 0):
+#     print('x =',x, 'y =', y, 'z =', z)
+# x = 5
+# y = 6
+# z = 7
+
+# myfunc(x, y, z)
+# myfunc(x, y)
+# myfunc(x)
+
+
+
+
+# def add(num) :
+#     result = 0
+#     for number in num:
+#         result += number
+#     return result 
+# result = add([1,2, 30, 4, 5, 9])
+# print(result)
+
+
+# def test_fnc(li):
+#     li[0] = 10
+
+# my_list = [1, 2, 3, 4]
+# print('before function call:', my_list)
+# test_fnc(my_list)
+# print('after function call:', my_list)
+
+
+# def myfunc(li):
+#     add = sum(li)
+#     return add / 2
+
+# ans = myfunc([1,2,3,4])
+# print(ans)
+
+
+
+def myfunc(li):
+    lent = len(li)
+    count = 0
+    for elems in li:
+        count += elems
+    return count / lent
+
+ans = myfunc([1,2,3,4])
+print(ans)
+
+
+# li = [1, 2, 3, 4]
+# count = 0
+# for elem in li:
+#     count += elem
+
+# print(count)
