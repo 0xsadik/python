@@ -17,3 +17,26 @@
 
 
 # turtle.exitonclick()
+
+
+
+
+
+# str = 'a quick brown fox jumps over the lazy dog'
+# for c in 'abcdefghijklmnopqrstuvwxyz':
+#     print(c)
+
+
+
+
+
+
+# mainstr = 'Im SAdik 2022 !.,.'
+# vanga = mainstr.split()
+# print(vanga)
+
+
+
+
+
+
