@@ -38,13 +38,15 @@
 # print(name)
 
 
-name = ['torikus','sadik','fahim','shakil']
-item = 'tori'
-if item in name:
-    item.remove()
-else:
-    print('Sorry! buddy, This item is not in this list')
-print(name)
+# name = ['torikus','sadik','fahim','shakil']
+# item = 'tori'
+# if item in name:
+#     item.remove()
+# else:
+#     print('Sorry! buddy, This item is not in this list')
+# print(name)
+
+
 
 
 
