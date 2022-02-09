@@ -132,3 +132,25 @@
 
 
 
+# a = [20, 10, 5]
+# total = 0
+# for e in a:
+#     total = total + e
+# print(total)
+
+
+# b = [1, 2, 3, 4]
+# total = 0
+# for e in b:
+#     total += e
+# print(total)
+
+
+
+# c = list(range(1, 5))
+# count = 0
+# for e in c:
+#     count += e
+# print(count)
+
+
