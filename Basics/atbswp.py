@@ -128,6 +128,108 @@
 
 
 
+# while True:
+#     print('Who are you')
+#     name = input()
+#     if name != 'torikus':
+#         continue
+#     print('hello, torikus. what is the password dude?')
+#     password = input('Enter your pass: ')
+#     if password == 'sandgrid':
+#         break
+
+# print('-------< Access granded! >-------- ')
+
+
+
+
+
+"""
+            ======= Functions =======
+"""
+
+
+
+# def hello():
+#     print('howdy!')
+#     print('Howdy!!!')
+#     print('Hello there')
+
+# hello()
+# hello()
+# hello()
+
+
+# def satement with parameters:
+
+# def hello(name):
+#     print('hello', name)
+
+# hello('shakil babu')
+# hello('fahim morshed')
+
+
+
+
+# random numbers 
+
+
+# import random
+
+# def getAnswer(answerNumber):
+#     if answerNumber == 1:
+#         return 'It is certain'
+#     elif answerNumber == 2:
+#         return 'It is decidedly so'
+#     elif answerNumber == 3:
+#         return 'yeah'
+#     elif answerNumber == 4:
+#         return 'Reply hazy try again'
+#     elif answerNumber == 5:
+#         return 'Ask again later'
+#     elif answerNumber == 6:
+#         return 'Concentrate and ask again'
+#     elif answerNumber == 7:
+#         return 'My reply is no'
+#     elif answerNumber == 8:
+#         return 'Outlook not so good'
+#     elif answerNumber == 9:
+#         return 'very doubtful'
+
+# r = random.randint(1, 9)
+# fortune = getAnswer(r)
+# print(fortune)
+
+
+
+
+
+# local and global scope 
+
+
+
+# def spam():
+#     eggs = 12 # local variable 
+# spam()
+# print(eggs)
+
+
+
+def spam():
+    eggs = 90
+    bacon()
+    print(eggs)
+
+def bacon():
+    ham = 101
+    eggs = 0
+    print(ham)
+
+spam()
+
+
+
+
 
 
 
