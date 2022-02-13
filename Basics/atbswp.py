@@ -214,22 +214,72 @@
 # print(eggs)
 
 
+# local scope 
+
+# def spam():
+#     eggs = 90
+#     bacon()
+#     print(eggs)
+
+# def bacon():
+#     ham = 101
+#     eggs = 0
+#     print(ham)
+
+# spam()
+
+
+# global scope 
+
+# eggs = 42
+
+# def spam():
+#     print(eggs)
+# spam()
+# print(eggs)
+
+
+
+
+# def spam():
+#     print(eggs)
+# eggs = 42
+# spam()
+# print(eggs)
+
+
+
+# local and global variables with the same name :
+
+# def spam():
+#     eggs = 'spam local'
+#     print(eggs) # prints 'spam local'
+
+# def bacon():
+#     eggs = 'bacon local'
+#     print(eggs)
+#     spam()
+#     print(eggs)
+
+
+# eggs  = 'global'
+# bacon()
+# print(eggs)
+
+
+
+
+
+# ---- the global statemenet ---- 
+
 
 def spam():
-    eggs = 90
-    bacon()
-    print(eggs)
+    global eggs
+    eggs = 'spam'
 
-def bacon():
-    ham = 101
-    eggs = 0
-    print(ham)
-
+eggs = 'global'
 spam()
-
-
-
-
+print(eggs)
 
 
 
