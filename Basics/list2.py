@@ -124,7 +124,28 @@
 # print(spam)
 
 
+# spam = [1, 3, 2, 'a', 'c','b']
+# spam.sort()
+# print(spam)
 
+
+# spam = ['c','b','a']
+# spam.sort()
+# print(spam)
+
+
+
+
+# magic 8 ball with a list 
+
+
+# import  random
+
+# messages = ['It is certain','It is decidely so','Yes definitely',
+# 'Reply hazy try again','ask again later','concenatrate and ask again','my reply is no'
+# ,'Outlook not so good','Very doubtful']
+
+# print(messages[random.randint(0, len(messages) - 1)])
 
 
 
