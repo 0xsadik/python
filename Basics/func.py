@@ -147,12 +147,66 @@
 
 
 
+"""
+   ===========   error handling   =============
+"""
 
-def spam(divideBy):
-    return 42 / divideBy
 
-print(spam(2))
-print(spam(12))
-print(spam(0))
-print(spam(0))
-print(spam(1))
+# def spam(divideBy):
+#     return 42 / divideBy
+
+# print(spam(2))
+# print(spam(12))
+# print(spam(0))
+# print(spam(0))
+# print(spam(1))
+
+
+
+
+
+# def spam(divideBy):
+#     try:
+#         return 42 / divideBy
+#     except ZeroDivisionError:
+#         print('Error: Invalid argument')
+    
+# print(spam(2))
+# print(spam(12))
+# print(spam(0))
+# print(spam(1))
+
+
+
+# @nother w4y 
+
+
+# def spam(divideby):
+#     return 42 / divideby
+
+# try:
+#     print(spam(2))
+#     print(spam(12))
+#     print(spam(0))
+#     print(spam(1))
+# except ZeroDivisionError:
+#     print('Error: invalid argument')
+
+
+
+
+
+# 9uss the secret number :
+
+import random
+
+secretNumber = random.randint(1, 20)
+print('I am thinking of a number between 1 to 20')
+
+# Ask the player to guess 6 times 
+
+for guessTaken in range(1, 7):
+    
+
+
+
