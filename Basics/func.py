@@ -196,17 +196,32 @@
 
 
 
-# 9uss the secret number :
+# # 9uss the secret number :
 
-import random
+# import random
 
-secretNumber = random.randint(1, 20)
-print('I am thinking of a number between 1 to 20')
+# secretNumber = random.randint(1, 20)
+# print('I am thinking of a number between 1 to 20')
 
-# Ask the player to guess 6 times 
+# # Ask the player to guess 6 times 
 
-for guessTaken in range(1, 7):
-    
+# for guessTaken in range(1, 7):
+#    print('take a guess!')
+#    guess = int(input('take a guess'))
+
+#    if guess < secretNumber:
+#       print('your guess is too loaw')
+#    elif guess > secretNumber:
+#       print('your guess is too high')
+#    else:
+#       break # this condition is the correct guess
+
+# if guess == secretNumber:
+#    print('Good job! you guessed my number in ' + str(guessTaken) + ' guesses!')
+# else:
+#    print('Nope! The number I was thinking of was ' + str(secretNumber))
+
+   
 
 
 

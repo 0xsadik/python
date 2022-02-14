@@ -59,4 +59,49 @@
 
 
 
-a = 
+# a = 256
+# b = 256
+# print(a is b)
+
+# a = 300
+# b = 300
+# print(type(a))
+# print(type(b))
+# print(a is b)
+
+
+
+# a =  input('enter a number herE:')
+# print(type(a)) #string
+# print('the numebr is:', a)
+
+
+
+# a = 'asdf'
+# b = 'asdf'
+# print(a is b)
+
+# a = 256
+# b = 256
+# print(a is b)
+
+# a = 300
+# b = 300
+# print(a is b)
+
+
+# a = 115
+# b = 115
+# print(a is b)
+
+
+# list1 = ['torikus','shakil','fahim']
+# print(id(list1[0]))
+# print(id(list1[1]))
+# print(id(list1[2]))
+
+
+
+
+
+
