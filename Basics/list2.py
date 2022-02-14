@@ -48,3 +48,83 @@
 
 
 
+# names = ['shakil','babu','fahim','morshed','torikus','sadik']
+# for i in names:
+#     print('One of my friend is : ',i)
+
+
+
+
+# the 'in' and 'not' operator 
+
+
+# names = ['torikus','sadik','raihan']
+# print('sadik' in names)
+# print('torikuss' not in names)
+
+
+
+
+# myPets = ['zophie','pooka','toka']
+# print('enter a pet name:')
+# name = input()
+# if name not in myPets:
+#     print('I do not have a pet named' + name)
+# else:
+#     print(name + 'is my pet.')
+
+
+
+
+# the multiple assignment trick
+
+
+# cat = ['fat','black','loud']
+# size = cat[0]
+# color = cat[1]
+# disposition = cat[2]
+
+# size, color, dispostion = cat
+
+
+# print(cat)
+
+
+
+
+# --> append()
+
+# spam = ['cat','dog','bat']
+# spam.append('moose') # will add to the last of this list 
+# print(spam)
+
+
+
+# --> insert()
+
+# spam = ['babu','fahim','morshed']
+# spam.insert(0, 'shakil')
+# print(spam)
+
+
+
+
+# --> remove()
+
+# spam = ['cat','bat','rat','elephant']
+# spam.remove('bat')
+# print(spam)
+
+
+
+# --> sort()
+
+# spam = [2, 4, 6, 3, 5, 8, 9]
+# spam.sort()
+# print(spam)
+
+
+
+
+
+
