@@ -128,4 +128,61 @@
 
 
 
+# -> using while loop
+
+# tlist = ['apple','banana','cherry']
+# i = 0
+# while i < len(tlist):
+#     print(tlist[i])
+#     i = i + 1
+
+
+
+# tlist = ['apple','banna','cherry']
+# [print(x) for x in tlist]
+
+
+
+"""
+
+    python list comprehension
+
+"""
+
+
+# fruits = ['apple','banana','cherry','kiwi','mango']
+# newlist = []
+
+# for x in fruits:
+#     if 'a' in x:
+#         newlist.append(x)
+
+# print(newlist)
+
+
+
+# furits = ['apple','banana','cherry','kiwi','mango']
+# newlist = [ x for x in furits if 'a' in x]
+# print(newlist)
+
+
+# only accept items that are not 'apple'
+
+# frt  = ['apple','banana','pineapple']
+# newlist = [x for x in frt if x != 'apple']
+# print(newlist)
+
+
+# frt  = ['apple','banana','pineapple']
+# newlist =  [x for x in  frt]
+# print(newlist)
+
+
+# arr = [10, 3, 4, 8, 9, 2, 1]
+# arr.sort()
+# arr.sort(reverse=True)
+# print(arr)
+
+
+
 
