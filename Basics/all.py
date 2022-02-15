@@ -507,3 +507,82 @@
 
 
 
+
+# b = 'hello world'
+# print(b[2:5])
+# print(b[1:7])
+
+
+# -> slice from start
+# b = 'hello world!'
+# print(b[:5])
+
+
+
+# -> slice to the end
+
+# b = 'hello world!'
+# print(b[2:])
+
+
+# -> negative indexing 
+
+# b = 'hello world!'
+# print(b[-5:-2])
+
+
+# a = 'apple'
+# print(a.upper())
+
+# b = 'APPLE'
+# print(b.lower())
+
+
+
+# a = 'Dorikus Sadik'
+# print(a.replace('D','T'))
+
+
+# age = 22
+# txt = 'my name is tori, and i am {}'
+# print(txt.format(age))
+
+# print(f'my name is tori, and age is {age}')
+
+
+# quantity = 3
+# itemno = 543
+# price = 45.34
+# myorder = 'I want {} pieces of item {} for {} dollars'
+# print(myorder.format(quantity, itemno, price))
+
+
+
+
+# quantity = 3
+# itemno = 543
+# price = 45.34
+# print(f'I want {quantity} pieces of item {itemno} for {price} dollars')
+
+
+
+# a = 'banana'
+# print(a.capitalize())
+
+
+# a = 'BANGLADESH'
+# print(a.casefold())
+
+
+# a = 'center'
+# print(a.center(20))
+
+
+# thislist = list(('apple','banana','pinapple'))
+# print(thislist)
+
+
+
+
+
+
