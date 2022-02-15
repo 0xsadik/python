@@ -148,4 +148,64 @@
 # print(messages[random.randint(0, len(messages) - 1)])
 
 
+# list copying...
+# copy() 
+
+# tlist = ['apple','banana','cherry']
+# mlist = tlist.copy()
+# print(mlist)
+
+
+
+# make a copy of a list wit the list() method:
+
+# tlist = ['apple','banana','cherry']
+# mlist = list(tlist)
+# print(mlist)
+
+
+
+"""
+
+            Python - Join Lists
+
+"""
+
+
+
+# join two lists
+
+# list1 = ['a','b','c']
+# list2 = [1, 2, 3]
+
+# list3 = list1 + list2
+# print(list3)
+
+
+
+# another way
+
+
+# list1 = ['a','b','c']
+# list2 = [1, 2, 3]
+
+# for x in list2:
+#     list1.append(x)
+
+# print(list1)
+
+
+# extend()
+
+
+
+list1 = ['a','b','c']
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1)
+
+
+
+
 

@@ -186,3 +186,15 @@
 
 
 
+# sort list based on how close the number is to 50:
+
+# def myfunc(n):
+#     return abs(n - 50)
+
+# tlist = [100, 50, 65, 23, 82]
+# tlist.sort(key = myfunc)
+# print(tlist)
+
+
+
+
