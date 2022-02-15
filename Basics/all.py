@@ -583,6 +583,34 @@
 
 
 
+# -> change a range of item values :
+
+# thislist = ['apple','banana','cherry','orange','kiwi']
+# thislist[1:3] = ['blackcurrant','watermelon']
+# print(thislist)
+
+
+
+
+# change the second value 
+
+# llist = ['apple','banana','cherry']
+# llist[1:2] = ['blackcurrant','watermelon']
+# print(llist)
+
+
+
+# insert itme 
+
+# tlist = ['apple','banana','cherry']
+# tlist.insert(2, 'watermelon')
+# print(tlist)
+
+
+
+
+
+
 
 
 

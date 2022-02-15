@@ -1,6 +1,6 @@
 
 
-# loop exersise 
+# loop exersise
 
 # import turtle
 
@@ -30,20 +30,17 @@
 #     turtle.penup()
 #     turtle.left(90)
 #     turtle.forward(250)
-        
+
 # first(200)
 # second(55)
 # turtle.exitonclick()
-
-
 
 
 # a = 'apple'
 # b = 'apple'
 # c = a is b
 # print(c)
-#True
-
+# True
 
 
 # a = 'tsr'
@@ -58,7 +55,6 @@
 # # output???
 
 
-
 # a = 256
 # b = 256
 # print(a is b)
@@ -70,11 +66,9 @@
 # print(a is b)
 
 
-
 # a =  input('enter a number herE:')
 # print(type(a)) #string
 # print('the numebr is:', a)
-
 
 
 # a = 'asdf'
@@ -101,6 +95,36 @@
 # print(id(list1[2]))
 
 
+# def binn(num):
+#     result = bin(num)
+#     print(result)
+# binn(19)
+
+
+
+# tlist = ['apple', 'banana','cherry']
+# tlist.pop()
+# print(tlist)
+
+
+# -> del
+
+# tlist = ['apple','banana','cherry']
+# del tlist[1]
+# print(tlist)
+
+
+
+# -> delete entire list 
+
+# tlist = ['apple','banana','cherry']
+# del tlist
+# print(tlist)
+
+
+# ll1 = ['apple','banana','cherry','bery']
+# for i in range(len(ll1)):
+#     print(f'index is : {i} and element is : {ll1[i]}')
 
 
 
