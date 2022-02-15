@@ -394,6 +394,116 @@
 
 
 """
-    again basics 
+    => again basics <= 
 """
+
+
+# a, b, c = 'torikus','sadik','raihan'
+# print(a)
+# print(b)
+# print(c)
+
+
+
+# one value to multiple variables 
+
+# x = y = z  = 'tomato'
+# print(x)
+# print(y)
+# print(z)
+
+
+
+# unpack a collection 
+
+
+# fruits = ['apple','banana','cherry']
+# a, b, c = fruits
+
+# print(a)
+# print(b)
+# print(c)
+
+
+
+# --< Gobal variable 
+
+# a = 'awesome '
+# def myfunc():
+#     print('python is ' + a)
+
+# myfunc()
+
+
+# --< local and global (both)
+
+
+
+# x = 'awesome'
+
+# def myfunc():
+#     x = 'fantastic'
+#     print('python is ' + x)
+
+# myfunc()
+# print('python is ' + x)
+
+
+# --> global (keyword)
+
+# x = 'awesome'
+# def myfunc():
+#     global x
+#     x = 'fantastic'
+
+# myfunc()
+# print('python is ' + x)
+
+
+
+"""
+    ==? Data types ?==
+
+"""
+
+# -> complex
+
+# x = 1j 
+# print(x)
+# print(type(x))
+
+
+# x = 1001j
+# print(x)
+
+
+
+# import random 
+
+# print(random.randint(1, 3))
+
+
+# --> Type casting 
+
+# a = int(1)
+# b = int(1.29)
+# c = int('3090')
+
+# print(a, b, c)
+
+
+
+# a = 'hello, world'
+# print(a[1])
+# # output???
+
+
+
+# -> loop through a string 
+
+# a  = 'torikus sadik'
+# for indexes in a:
+#     print(indexes)
+
+
 
