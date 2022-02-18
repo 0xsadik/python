@@ -150,6 +150,17 @@
 # print(x)
 
 
+# --> Get items 
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# temp = car.items()
+# print(temp)
+
 
 
 
