@@ -43,6 +43,120 @@
 #     'colors' : ['red','white','blue']
 # }
 # print(tdic)
+# print(type(tdic))
+
+
+
+# ---> Access dictionary items 
+
+
+# tdic = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# temp = tdic['model']
+# print(temp)
+
+
+# get() method does the same thing 
+
+# tdic = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# temp = tdic.get('year')
+# print(temp)
+
+
+
+
+
+
+# --->  get keys 
+
+
+
+# tdic = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# temp = tdic.keys()
+# print(temp)
+
+
+
+
+# add a new item to the original dictionary and see that the keys list gets updated
+
+
+# car = {
+#     'brand' : 'Ford',
+#     'model' : 'Mustang',
+#     'year' : 1996
+# }
+
+# temp = car.keys()
+# # print(temp)
+
+# car['color'] = 'White'
+# print(car)
+
+
+# GET values 
+
+
+# tdic = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# temp = tdic.values()
+# print(temp)
+
+
+
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.values()
+
+# print(x) #before the change
+
+# car["year"] = 2020
+
+# print(x) #after the change
+
+
+# add a new item to the orginal dictionary, and see that the values list gets updated as well:
+
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.values()
+
+# print(x)
+# car['color'] = 'red'
+# print(x)
+
+
+
+
+
+
+
+
+
 
 
 
