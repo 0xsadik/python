@@ -162,6 +162,34 @@
 # print(temp)
 
 
+# marks = [77, 76, 65, 78, 62, 64, 60, 77, 78, 89, 98, 45, 33]
+# roll = input('please enter your roll here:')
+# roll = int(roll)
+# print(f'You have got: {marks[roll] } marks. ')
+
+
+tdict = {'shakil' : 23, 'tori': 22, 'fahim' : 23}
+sh = tdict['shakil']
+print(sh)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
