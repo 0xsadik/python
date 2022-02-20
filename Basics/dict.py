@@ -168,9 +168,11 @@
 # print(f'You have got: {marks[roll] } marks. ')
 
 
-tdict = {'shakil' : 23, 'tori': 22, 'fahim' : 23}
-sh = tdict['shakil']
-print(sh)
+# tdict = {'shakil' : 23, 'tori': 22, 'fahim' : 23}
+# sh = tdict['shakil']
+# print(sh)
+
+
 
 
 
