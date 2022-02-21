@@ -211,4 +211,55 @@
 # turtle.exitonclick()
 
 
+# import turtle
+# import random 
+
+# turtle.penup()
+
+# for i in range(50):
+#     x = random.randint(-200, 200)
+#     y = random.randint(-200, 200)
+#     turtle.setposition(x,y)
+#     turtle.dot()
+# turtle.exitonclick()
+
+
+
+# with color 
+
+# import turtle
+# import random
+
+
+# colors = ['red','green','purple','yellow','black','orange','blue']
+# turtle.penup()
+
+
+# for i in range(50):
+#     x = random.randint(-100, 100)
+#     y = random.randint(-100, 100)
+#     # set a random position 
+#     turtle.setposition(x,y)
+#     # set random color
+#     i = random.randint(0, len(colors) - 1)
+#     turtle.dot(colors[i])
+
+# turtle.exitonclick()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
