@@ -302,6 +302,113 @@
 
 
 
+# def is_prime1(n):
+#     if n < 2:
+#         return False
+#     prime = True
+#     for x in range(2, n):
+#         if n % x == 0:
+#             print(n, 'is divisible by', x)
+#             prime = False 
+#     return prime 
+
+# while True:
+#     number = input('Please enter a number  (enter 0 to exit) : ')
+#     number = int(number)
+#     if number == 0:
+#         break
+#     prime = is_prime1(number)
+#     if prime is True:
+#         print(number, 'is a prime number.')
+#     else:
+#         print(number, 'is not a prime number')
+
+
+
+
+# def is_prime2(n):
+#     if n < 2:
+#         return False
+#     prime = True
+#     for x in range(2, n):
+#         if n % x == 0:
+#             print(n, 'is divisible by', x)
+#             prime = False 
+#             return prime
+#     return prime 
+
+
+# while True:
+#     number = input('please enter a number (enter 0 to exit)')
+#     number = int(number)
+#     if number == 0:
+#         break
+#     prime = is_prime2(number)
+#     if prime is True:
+#         print(number, 'is a prime number.')
+#     else:
+#         print(number, 'is not a prime number.')
+
+
+
+
+# turtle diya  akibuki
+
+# import turtle
+# turtle.color('lightgreen','green')
+
+# turtle.begin_fill()
+# while True:
+#     turtle.forward(200)
+#     turtle.left(170)
+#     if abs(turtle.position()) < 1:
+#         break
+
+# turtle.end_fill()
+# turtle.exitonclick()
+
+
+
+
+# fibonacci 
+
+# fib_x = 1
+# fib_next = 1 
+
+# n = input()
+# n = int(n)
+
+# if n <= 2:
+#     fib_n = 1
+# else:
+#     i = 3
+#     while i <= n:
+#         i += 1
+#         fib_temp = fib_x + fib_next
+#         fib_x = fib_next
+#         fib_next = fib_temp
+
+#     fib_n = fib_next
+
+# print(fib_n)
+
+
+
+# import turtle 
+
+# r = 120
+# a = 180
+# turtle.circle(r, a)
+# turtle.exitonclick()
+
+
+
+
+
+
+
+
+
 
 
 
