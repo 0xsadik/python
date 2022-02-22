@@ -52,7 +52,7 @@
 
 
 
-# self a little bit 
+# -> self a little bit 
 
 # class check:
 #     def __init__(self):
@@ -60,6 +60,28 @@
 
 # obj = check()
 # print('Address of class object = ', id(obj))
+
+
+
+# -< another example 
+
+# class car():
+#     # init method or constructor 
+#     def __init__(self, model, color):
+#         self.model = model
+#         self.color = color 
+
+#     def show(self):
+#         print('Model is', self.model)
+#         print('color is', self.color)
+
+# audi = car('audi a4', 'blue')
+# ferrari = car('ferrari 488', 'green')
+
+# audi.show()
+# ferrari.show()
+
+
 
 
 
