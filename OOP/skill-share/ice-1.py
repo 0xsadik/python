@@ -112,8 +112,17 @@
 
 
 
+# class Light:
+#     on = False
 
+# a = Light()
+# b = Light()
 
+# Light.on = True 
+# print(Light.on)
+# a.on = True
+# print(a.on)
+# print(b.on)
 
 
 
