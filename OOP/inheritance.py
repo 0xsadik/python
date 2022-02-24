@@ -37,7 +37,14 @@
 #     v2.brake()
 
 
+# class Car(Vehicle):
+#     """ Car class """
+#     def change_gear(self, gear_name):
+#         """ Method for changing gear """
+#         print(f'{self.name} is changing gear to {gear_name}')
 
+# car = Car('mustang 5.0 GT cupe', 'Ford', 'red')
+# car.change_gear('D')
 
 
 # -> inheritance anis sir
@@ -59,34 +66,38 @@
 
 # parent class hobe 'Shool'
 
-class School:
-    def __init__(self):
-        self.name = 'Abc school'
-        self.year = 1990
-        self.location = 'Hatirjhil'
+# class School:
+#     def __init__(self):
+#         self.name = 'Abc school'
+#         self.year = 1990
+#         self.location = 'Hatirjhil'
 
-    def sayName(self):
-        print(f'welcome to {self.name}')
+#     def sayName(self):
+#         print(f'welcome to {self.name}')
 
 
 
-class Student(School):
-    def __init__(self, name, passingYear, department):
-        self.name = name 
-        self.passingYear = passingYear
-        self.department = department
+# class Student(School):
+#     def __init__(self, name, passingYear, department):
+#         self.name = name 
+#         self.passingYear = passingYear
+#         self.department = department
 
-    def greeting(self):
-        if self.passingYear > 2021:
-            print(f'Hey {self.name}, You are currently a student!')
-        elif self.passingYear > 2015:
-            print(f'Hey {self.name}, You are recently graduated!')
-        else:
-            print(f'{self.name}, you were a student')
+#     def greeting(self):
+#         if self.passingYear > 2021:
+#             print(f'Hey {self.name}, You are currently a student!')
+#         elif self.passingYear > 2015:
+#             print(f'Hey {self.name}, You are recently graduated!')
+#         else:
+#             print(f'{self.name}, you were a student')
 
-babu = Student('Shakil babu', 2018, 'CST')
-babu.sayName()
-babu.greeting()
+# babu = Student('Shakil babu', 2018, 'CST')
+# babu.sayName()
+# babu.greeting()
+
+
+
+
 
 
 
