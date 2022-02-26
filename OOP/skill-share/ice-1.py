@@ -129,6 +129,69 @@
 
 
 
+# from tkinter import scrolledtext
+
+
+# class IceCream:
+
+#     max_scoops = 3
+
+#     def __init__(self):
+#         self.scoops = 0
+
+#     def eat(self, scoops):
+#         if self.scoops < scoops:
+#             print('Not enough bites left!')
+#         else:
+#             self.scoops -= scoops
+        
+#     def add(self, scoops):
+#         self.scoops += scoops
+#         if self.scoops > self.max_scoops:
+#             self.scoops = 0
+#             print('Too many scoops! Dropped ice cream')
+
+
+# class IceCreamTruck:
+
+#     def __init__(self):
+#         self.sold = 0
+
+#     def order(self, scoops):
+#         ice_cream = IceCream()
+#         self.add(ice_cream, scoops)
+#         return ice_cream
+
+#     def add(self, ice_cream, scoops):
+#         ice_cream.add(scoops)
+#         self.sold += scoops
+
+# # ice_cream = IceCream()
+# # ice_cream.scoops += 2
+# # ice_cream.add(2)
+# # ice_cream.scoops -= 3
+# # ice_cream.eat(3)
+
+# truck = IceCreamTruck()
+# ice_cream1 = truck.order(3)
+# ice_cream1.eat(2)
+# truck.add(ice_cream1, 1)
+# truck.sold
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
