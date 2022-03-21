@@ -177,7 +177,81 @@
 
 
 
+# ---> --------- > ---------------> ---------------------> 
 
+
+
+
+
+
+
+
+# copy a Dictionary 
+
+
+# copy() method 
+
+
+# thisdict = {
+#     'brand' :'Ford',
+#     'model' : 'Mustang',
+#     'year' : 1994
+# }
+
+# mydict = thisdict.copy()
+# print(mydict)
+
+
+
+# -> another way
+
+
+# thisdict = {
+#     'brand' :'Ford',
+#     'model' : 'Mustang',
+#     'year' : 1994
+# }
+
+# mydict = dict(thisdict)
+# print(mydict)
+
+
+# --< Nested Dictionaries 
+
+myfam = {
+    'child1' : {
+        'name' : 'Emil',
+        'year' : 2003
+    },
+    'child2': {
+        'name ' : 'Tobias',
+        'year' : 2005
+    },
+    'child3' : {
+        'name' : 'Linux',
+        'year' : 2008
+    }
+}
+
+print(myfam)
+
+
+# -> Dictionary methods 
+
+# clear() ---       removes all the elements from the dictionary
+# copy()  ---       returns a copy of the dictionary 
+# formkey() ---     returns a dictionary with the specified keys and value
+# get()     ---     returns the value of the specific key
+# items() ---       returns a list containing a tuple for each key value pair
+# keys() ---        returns a list containing the dictionary's keys
+# pop() ---         removes the last inserted key-value pair 
+# popitem() ---     removes the last inserted key value pair 
+# setderfault() --- returns the value of the specified key. If the key does not exist : insert the key , with the specified value 
+# update() ---      updates the dictionary with the specified key-value pairs
+# values() ---      returns a list of all the values in the dictionary
+ 
+
+ 
 
 
 
